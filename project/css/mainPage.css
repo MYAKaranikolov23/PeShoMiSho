@@ -1,0 +1,62 @@
+html{
+    scroll-behavior: smooth;
+  }
+ 
+ 
+body
+{
+  margin: 0px;  
+  font-family: 'Telex';
+  font-weight: 400;
+  background: #1d1a17;  
+ 
+}
+ 
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ 
+h1,h2, h3, p
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+ 
+.navbar{
+    background: #1D2B64;  
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); 
+    background: linear-gradient(to right, #F8CDDA, #1D2B64); 
+    text-align: center;
+    position: static;
+ 
+}
+ 
+.navbar ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+    text-shadow: 0 0 3px #df80ba;
+    cursor: pointer;
+    transition: .5s;
+}
+ 
+nav ul li:hover{
+    color: #000;
+  }
+ 
+ 
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+ 
+}
+ 
+.navbar a:hover{
+    background-color: hsl(300, 2%, 67%);
+}
