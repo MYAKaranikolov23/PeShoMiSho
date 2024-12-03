@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:700|Nunito:400');
+
 html{
     scroll-behavior: smooth;
   }
@@ -6,7 +8,7 @@ html{
 body
 {
   margin: 0px;  
-  font-family: 'Telex';
+  font-family: 'Nunito';
   font-weight: 400;
   background: #1d1a17;  
  
@@ -23,6 +25,12 @@ h1,h2, h3, p
     color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
+
+.title
+{
+font-size: 350%;
+}
+
  
 .navbar{
     background: #1D2B64;  
@@ -38,16 +46,20 @@ h1,h2, h3, p
     padding: 0px;
     margin: 0px;
     display: inline-flex;
-    text-shadow: 0 0 3px #df80ba;
     cursor: pointer;
-    transition: .5s;
+    transition: .8s;
 }
  
 nav ul li:hover{
     color: #000;
   }
  
- 
+
+ .navbar li
+ {
+    font-size: 150%;
+ }
+
 .navbar a{
     color: white;
     text-decoration: none;
@@ -60,3 +72,13 @@ nav ul li:hover{
 .navbar a:hover{
     background-color: hsl(300, 2%, 67%);
 }
+
+hr {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 20%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
