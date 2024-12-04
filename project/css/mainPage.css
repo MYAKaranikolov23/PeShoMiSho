@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:700|Nunito:400');
+@import url('https://fonts.googleapis.com/css?family=Manrope:700|Manrope:400');
+@import url("https://fonts.googleapis.com/css?family=Fuzzy%20Bubbles:700|Fuzzy%20Bubbles:400");
 
 html{
     scroll-behavior: smooth;
   }
- 
+
  
 body
 {
   margin: 0px;  
-  font-family: 'Nunito';
+  font-family: 'Manrope';
   font-weight: 400;
-  background: #1d1a17;  
+  background: #150111;  
  
 }
  
@@ -92,11 +93,11 @@ hr {
 {
     margin-top: 7%;
     margin-bottom: 7%;
-    padding: 10%;
+    padding: 1.5%;
     text-align: center;
     background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); 
     background: linear-gradient(to right, #F8CDDA, #1D2B64); 
-    display: flex;
+
 }
 
 .button-steam {
@@ -106,9 +107,9 @@ hr {
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
-    font-family: 'Nunito';
+    font-family: 'Fuzzy Bubbles';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 24px;
     opacity: 1;
@@ -126,11 +127,11 @@ hr {
   {
       margin-top: 7%;
       margin-bottom: 7%;
-      padding: 10%;
+      padding: 3%;
       text-align: center;
       background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); 
       background: linear-gradient(to right, #F8CDDA, #1D2B64); 
-      display: flex;
+
   }
 
   .button-guest {
@@ -140,9 +141,9 @@ hr {
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
-    font-family: 'Nunito';
+    font-family: 'Fuzzy Bubbles';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 24px;
     opacity: 1;
@@ -160,12 +161,13 @@ hr {
 {
     margin-top: 7%;
     margin-bottom: 7%;
-    padding: 10%;
+    padding: 2%;
     text-align: center;
     background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); 
     background: linear-gradient(to right, #F8CDDA, #1D2B64); 
-    display: flex;
+
 }
+
 
 .button-wheel {
     background: #5E5DF0;
@@ -174,9 +176,9 @@ hr {
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
-    font-family: 'Nunito';
+    font-family: 'Fuzzy Bubbles';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 24px;
     opacity: 1;
@@ -195,3 +197,20 @@ hr {
     text-align: center;
     font-size: 250%;
 }
+
+
+.scroll-page {
+    color: #FFFFFF;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .center{
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+  }
+
