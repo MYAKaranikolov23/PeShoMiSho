@@ -21,7 +21,7 @@ main{
  
 h1,h2, h3, p
 {
-    text-align: center;
+    text-align:center;
     color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
@@ -72,21 +72,22 @@ nav ul li:hover{
 .navbar a:hover{
     background-color: hsl(300, 2%, 67%);
 }
-#VR{
-    margin-top: 3%;
-    size: 200%;
+img{
+    size: 100%;
 }
-#div{
+#div1{
+    font-size: 130%;
     display: flex;
+    justify-content: space-around;
 
 }
 #div2{
     flex-direction: column;
     justify-content: space-around;
-    text-align: center;
-    font-size: 110%;
+    justify-content: center;
+    font-size: 120%;
 }
-.button-9 {
+.button{
   appearance: button;
   backface-visibility: hidden;
   background-color: #405cf5;
@@ -115,21 +116,21 @@ nav ul li:hover{
   width: 8%;
 }
 
-.button-9:disabled {
+.button:disabled {
   cursor: default;
 }
 
-.button-9:focus {
+.button:focus {
   box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
 }
 #div3{
     
-    text-align: right;
+    text-align: center;
 }
 a{
   text-decoration: none;
   color: #fff;
 }
 #div0{
-  margin-top: 7%;
+  margin-top: 5%;
 }
