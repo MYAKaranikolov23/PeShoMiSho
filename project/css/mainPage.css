@@ -93,7 +93,7 @@ hr {
 {
     margin-top: 7%;
     margin-bottom: 7%;
-    padding: 1.5%;
+    padding: 1%;
     text-align: center;
     background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); 
     background: linear-gradient(to right, #F8CDDA, #1D2B64); 
@@ -127,7 +127,7 @@ hr {
   {
       margin-top: 7%;
       margin-bottom: 7%;
-      padding: 3%;
+      padding: 1%;
       text-align: center;
       background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); 
       background: linear-gradient(to right, #F8CDDA, #1D2B64); 
@@ -161,7 +161,7 @@ hr {
 {
     margin-top: 7%;
     margin-bottom: 7%;
-    padding: 2%;
+    padding: 0.5%;
     text-align: center;
     background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); 
     background: linear-gradient(to right, #F8CDDA, #1D2B64); 
@@ -195,7 +195,7 @@ hr {
 .names 
 {
     text-align: center;
-    font-size: 250%;
+    font-size: 120%;
 }
 
 
